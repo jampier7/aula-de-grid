@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: blue;
+            color: white;
+        }
+        
+        p {
+            border: 3px solid #73AD21;
+        }
+        
+        .pos1 {
+            border: 3px double #73AD21;
+            position: relative;
+            width: 400px;
+            height: 200px;
+        }
+        
+        .pos2 {
+            position: absolute;
+            top: 180px;
+            right: 0;
+            width: 80px;
+            height: 30px;
+            border: 3px solid #73AD21;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+        
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Posição</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat labore quia quae, similique hic quidem eaque deleniti nulla. Corporis reiciendis nesciunt, reprehenderit accusantium quibusdam sit facere a voluptatum consectetur nostrum.
+    </p>
+    <div class="pos1">
+        Porro, nam delectus aliquam, deserunt veniam natus repudiandae eligendi praesentium quasi sint inventore?
+        <div class="pos2">Issufi Badji</div>
+    </div>
+    <hr>
+    <h1>Grid Elements</h1>
+
+    <p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
+
+    <p>Direct child element(s) of the grid container automatically becomes grid items.</p>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+
+
+
+</body>
+
+</html>
